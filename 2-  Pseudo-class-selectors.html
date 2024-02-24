@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+
+    <style>
+        h1:hover{
+            background: yellow;
+        }
+        a:visited{
+            color: tan;
+        }
+
+        a:link{
+            color: #0dbb73;
+        }
+
+        button:visited{
+            color: aqua;
+        }
+
+        h1:active{          /*when click h1 change colour to red*/
+            background: red;
+        }
+
+        input:focus{
+            background: darkblue;
+        }
+        li:first-child{
+            color: #0dbb73;
+        }
+        li:last-child{
+            color: crimson;
+        }
+        li:nth-child(3){
+            color: darkmagenta;
+        }
+        li:nth-child(4){
+            color: #564438;
+        }
+        li:nth-child(5){
+            color: teal;
+        }
+        li:only-child{
+            color: orange;
+        }
+
+
+
+    </style>
+</head>
+<body>
+        <h1>Welcome to IJSE</h1>
+
+        <a href="https://ijse.lk">IJSE</a> <br><br>
+
+        <button type="click">Click </button>
+
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name">
+        </form>
+
+        <br><br>
+
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Go</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+        </ul>
+
+        <ul>
+            <li>Java</li>
+        </ul>
+</body>
+</html>
